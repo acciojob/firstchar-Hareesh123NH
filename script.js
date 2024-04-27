@@ -1,7 +1,7 @@
 function firstChar(text) {
   // your code here
 	if(text==""){
-		return "";
+		return " ";
 	}
 	return text[0];
 }
