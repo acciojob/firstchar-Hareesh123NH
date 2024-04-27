@@ -1,6 +1,9 @@
 function firstChar(text) {
   // your code here
-	return "\'"+text[0]+"\'";
+	if(text==""){
+		return "";
+	}
+	return text[0];
 }
 
 // Do not change the code below
